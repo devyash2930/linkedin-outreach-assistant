@@ -1,0 +1,7 @@
+company_id,company_name,domain,hq_city,hq_state,size_band,industry,keywords,sources,confidence,hiring_signal,recent_activity,tech_stack_hint
+1,TechRaleigh Solutions,techraleigh.io,Raleigh,NC,11-50,Software,"saas,startup,series a",crunchbase,0.5,yes,Series A - $5M (2025),"Python,React,AWS"
+2,TriangleAI Labs,triangleai.com,Raleigh,NC,51-200,Ai/Ml,"ai,machine learning,startup",crunchbase,0.5,yes,Expansion announced,"Python,TensorFlow,GCP"
+3,HealthTech Innovators,healthtechinnovators.com,Raleigh,NC,11-50,Healthtech,"healthcare,saas,series b",crunchbase,0.5,yes,Series B - $15M (2025),"Java,React,Azure"
+4,DataDriven RTP,datadrivenrtp.com,Raleigh,NC,1-10,Data Analytics,"analytics,data,startup",google_places,0.5,unknown,,
+5,CyberSecure NC,cybersecurenc.com,Raleigh,NC,11-50,Cybersecurity,"security,enterprise",google_places,0.5,unknown,,
+6,RTP Fintech,rtpfintech.com,Raleigh,NC,51-200,Fintech,"fintech,payments,growth",nc_directories,0.5,yes,New office opening,

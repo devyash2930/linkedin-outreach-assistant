@@ -1,0 +1,69 @@
+# Raleigh Outreach Finder + Tracker Configuration
+
+# Target location
+location:
+  city: "Raleigh"
+  state: "NC"
+  radius_miles: 50
+
+# Company filters
+company_filters:
+  size_bands:
+    - "1-10"
+    - "11-50"
+    - "51-200"
+    - "201-500"
+  
+  industries:
+    - "Technology"
+    - "Software"
+    - "SaaS"
+    - "FinTech"
+    - "HealthTech"
+    - "AI/ML"
+    - "Data Analytics"
+    - "Cybersecurity"
+  
+  include_keywords:
+    - "startup"
+    - "series a"
+    - "series b"
+    - "growth"
+    - "hiring"
+    - "expanding"
+  
+  exclude_keywords:
+    - "recruiting agency"
+    - "staffing"
+    - "consulting"
+
+# Hard exclude list (company domains to never contact)
+exclude_domains: []
+
+# Title priorities for contact targeting
+title_priorities:
+  - "CEO"
+  - "CTO"
+  - "VP of Engineering"
+  - "Head of Engineering"
+  - "Engineering Manager"
+  - "Director of Engineering"
+  - "Founder"
+  - "Co-Founder"
+
+# Ranking weights
+ranking:
+  size_weight: 0.2
+  industry_weight: 0.3
+  keyword_weight: 0.2
+  confidence_weight: 0.15
+  signal_weight: 0.15  # hiring, recent activity
+
+# Database
+database:
+  path: "data/outreach.db"
+
+# Export settings
+export:
+  default_format: "csv"
+  include_drafts: true

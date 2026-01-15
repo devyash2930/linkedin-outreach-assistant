@@ -1,0 +1,22 @@
+# Compliance Guardrails - Prevents unsafe automation
+# This tool is explicitly ASSISTIVE ONLY - no LinkedIn automation
+
+linkedin:
+  auto_send: false          # Never auto-send messages
+  auto_connect: false       # Never auto-send connection requests
+  profile_scraping: false   # No LinkedIn profile scraping
+
+messaging:
+  max_invite_chars: 300     # LinkedIn invite note hard limit
+  max_inmail_chars: 1900    # InMail soft limit
+  human_review_required: true  # All drafts require human review
+
+enforcement:
+  # These are enforced at runtime
+  no_browser_automation: true
+  no_linkedin_cookies: true
+  no_linkedin_sessions: true
+  contact_discovery_manual_only: true
+
+# All outputs will be labeled:
+# "DRAFT – HUMAN REVIEW REQUIRED"

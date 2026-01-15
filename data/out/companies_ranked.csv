@@ -1,0 +1,7 @@
+rank,company_id,company_name,domain,relevance_score,hq_city,hq_state,size_band,industry,keywords,hiring_signal,recent_activity,sources,confidence
+1,1,TechRaleigh Solutions,techraleigh.io,0.925,Raleigh,NC,11-50,Software,"saas,startup,series a",yes,Series A - $5M (2025),crunchbase,0.5
+2,2,TriangleAI Labs,triangleai.com,0.836,Raleigh,NC,51-200,Ai/Ml,"ai,machine learning,startup",yes,Expansion announced,crunchbase,0.5
+3,3,HealthTech Innovators,healthtechinnovators.com,0.836,Raleigh,NC,11-50,Healthtech,"healthcare,saas,series b",yes,Series B - $15M (2025),crunchbase,0.5
+4,6,RTP Fintech,rtpfintech.com,0.836,Raleigh,NC,51-200,Fintech,"fintech,payments,growth",yes,New office opening,nc_directories,0.5
+5,4,DataDriven RTP,datadrivenrtp.com,0.701,Raleigh,NC,1-10,Data Analytics,"analytics,data,startup",unknown,,google_places,0.5
+6,5,CyberSecure NC,cybersecurenc.com,0.59,Raleigh,NC,11-50,Cybersecurity,"security,enterprise",unknown,,google_places,0.5

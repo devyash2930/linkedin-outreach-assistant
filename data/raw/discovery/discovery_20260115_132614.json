@@ -1,0 +1,91 @@
+{
+  "count": 6,
+  "sources_used": 3,
+  "companies": [
+    {
+      "company_name": "TechRaleigh Solutions",
+      "domain": "techraleigh.io",
+      "hq_city": "Raleigh",
+      "hq_state": "NC",
+      "size_band": "11-50",
+      "industry": "Software",
+      "keywords": "saas,startup,series-a",
+      "sources": "crunchbase",
+      "confidence": 0.5,
+      "hiring_signal": "yes",
+      "recent_activity": "Series A - $5M (2025)",
+      "tech_stack_hint": "Python,React,AWS"
+    },
+    {
+      "company_name": "TriangleAI Labs",
+      "domain": "triangleai.com",
+      "hq_city": "Raleigh",
+      "hq_state": "NC",
+      "size_band": "51-200",
+      "industry": "AI/ML",
+      "keywords": "ai,machine-learning,startup",
+      "sources": "crunchbase",
+      "confidence": 0.5,
+      "hiring_signal": "yes",
+      "recent_activity": "Expansion announced",
+      "tech_stack_hint": "Python,TensorFlow,GCP"
+    },
+    {
+      "company_name": "HealthTech Innovators",
+      "domain": "healthtechinnovators.com",
+      "hq_city": "Raleigh",
+      "hq_state": "NC",
+      "size_band": "11-50",
+      "industry": "HealthTech",
+      "keywords": "healthcare,saas,series-b",
+      "sources": "crunchbase",
+      "confidence": 0.5,
+      "hiring_signal": "yes",
+      "recent_activity": "Series B - $15M (2025)",
+      "tech_stack_hint": "Java,React,Azure"
+    },
+    {
+      "company_name": "DataDriven RTP",
+      "domain": "datadrivenrtp.com",
+      "hq_city": "Raleigh",
+      "hq_state": "NC",
+      "size_band": "1-10",
+      "industry": "Data Analytics",
+      "keywords": "analytics,data,startup",
+      "sources": "google_places",
+      "confidence": 0.5,
+      "hiring_signal": "unknown",
+      "recent_activity": "",
+      "tech_stack_hint": ""
+    },
+    {
+      "company_name": "CyberSecure NC",
+      "domain": "cybersecurenc.com",
+      "hq_city": "Raleigh",
+      "hq_state": "NC",
+      "size_band": "11-50",
+      "industry": "Cybersecurity",
+      "keywords": "security,enterprise",
+      "sources": "google_places",
+      "confidence": 0.5,
+      "hiring_signal": "unknown",
+      "recent_activity": "",
+      "tech_stack_hint": ""
+    },
+    {
+      "company_name": "RTP Fintech",
+      "domain": "rtpfintech.com",
+      "hq_city": "Raleigh",
+      "hq_state": "NC",
+      "size_band": "51-200",
+      "industry": "FinTech",
+      "keywords": "fintech,payments,growth",
+      "sources": "nc_directories",
+      "confidence": 0.5,
+      "hiring_signal": "yes",
+      "recent_activity": "New office opening",
+      "tech_stack_hint": ""
+    }
+  ],
+  "errors": []
+}
